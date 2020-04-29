@@ -26,7 +26,7 @@ public class LeeMulta {
             /* pero podemos obtener los datos de la linea por separado */
             
             if (linea.length() != 0) { // filtra líneas en blanco
-             String datos[] = linea.split(" +");//el + es para q identifique mas de un caracter en blanco en doc.origen
+                String datos[] = linea.split(" +");//el + es para q identifique mas de un caracter en blanco en doc.origen
         // Mostramos los elementos
                 System.out.print("Matricula: ");
                 System.out.print(datos[1]);
